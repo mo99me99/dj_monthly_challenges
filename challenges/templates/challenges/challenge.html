@@ -4,6 +4,8 @@
 {%endblock title %} 
 
 {% block content %}
+  {% include "./includes/header.html" %}
+
   <h1>{{ month|title }} challenge :</h1>
   {% if challenge_text %}
     <h2>{{ challenge_text }}</h2>
